@@ -1,4 +1,4 @@
-#include "time.h"
+#include "main.h"
 
 /**
  * main - Prints the alphabets in lower case as a message.
