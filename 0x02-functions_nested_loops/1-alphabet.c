@@ -5,14 +5,11 @@
  */
 
 #include <stdio.h>
- void print_alphabet(void)
+int main(void)
 {
  char ch = 'a';
-   {
     for (ch = 'a'; ch <= 'z'; ch++)
      putchar(ch);
-   }
-   putchar("\n");
   return (0);
 }
   
