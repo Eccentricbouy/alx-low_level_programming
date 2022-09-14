@@ -5,7 +5,7 @@
  *print_alphabet - print lower case alphabets
  */
 #include <stdio.h>
-char print_alphabet(void)
+ch print_alphabet(void)
 {
 char ch = 'a';
 for(ch = 'a'; ch <= 'z'; ch++)
