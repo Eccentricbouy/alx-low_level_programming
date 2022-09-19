@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *
+ * main - prints numbers
  *main: print numbers that works for real
  *Return: 0
  */
