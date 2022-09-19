@@ -5,18 +5,18 @@
  * @i: memeber
  * Return: Always 0.
  */
-int print_last_digit(i)
+int print_last_digit(l)
 {
-int i;
-i = n % 10;
-if (i < 0)
+int l;
+l = n % 10;
+if (l < 0)
 {
-_putchar(-i + 48);
-return (-i);
+_putchar(-l + 48);
+return (-l);
 }
 else
 {
-_putchar(i + 48);
-return (i);
+_putchar(l + 48);
+return (l);
 }
 }
