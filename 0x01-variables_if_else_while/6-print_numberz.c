@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main: print numbers
+ *main: print numbers that works
  *Return: 0
  */
 int main(void)
