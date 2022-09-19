@@ -5,7 +5,8 @@
  * @n: memeber
  * Return: Always 0.
  */
-int print_last_digit('50')
+int print_last_digit(n)
+  n = 50
 {
 int l;
 l = n % 10;
