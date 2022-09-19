@@ -2,21 +2,21 @@
 
 /**
  * print_last_digit - check the code
- * @i: memeber
+ * @n: memeber
  * Return: Always 0.
  */
-int print_last_digit(l)
+int print_last_digit(n)
 {
-int l;
-l = n % 10;
-if (l < 0)
+int i;
+i = n % 10;
+if (i < 0)
 {
-_putchar(-l + 48);
-return (-l);
+_putchar(-i + 48);
+return (-i);
 }
 else
 {
-_putchar(l + 48);
-return (l);
+_putchar(i + 48);
+return (i);
 }
 }
