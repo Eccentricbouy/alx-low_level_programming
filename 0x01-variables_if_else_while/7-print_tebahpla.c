@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints alphabets in reverse
- * return: 0
-*/
+ * main - prints numbers
+ *main: print numbers that works for real
+ *Return: 0
+ */
 int main(void)
 {
 int i;
