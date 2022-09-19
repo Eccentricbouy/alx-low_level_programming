@@ -5,7 +5,7 @@
  * @n: memeber
  * Return: Always 0.
  */
-int print_last_digit('98')
+int print_last_digit(n)
 {
 int l;
 l = n % 10;
@@ -19,4 +19,5 @@ else
 _putchar(l + 48);
 return (l);
 }
+  patcher('\n');
 }
