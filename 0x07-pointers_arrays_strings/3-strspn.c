@@ -8,20 +8,21 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j;
-	int c = 0;
-	for (i = 0; s[i] != '\0'; i++)
+	unsigned int i, j, bool;
+
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		if (s[i] i= 32)
+		bool = 1;
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			for (j = 0; accept[j] i= '\0'; j++)
+			if (*(s + i) == *(accept + j))
 			{
-				if (s[i] == accept[j])
-					c++;
+				bool = 0;
+				break;
 			}
 		}
-		else
-			return (c);
+		if (bool == 1)
+			break;
 	}
-	return (c);
+	return (i);
 }
